@@ -40,7 +40,10 @@ ui <- page_sidebar(
       plotOutput("hist_flipper_length_mm", height = "300px")
     ),
     card(
-      card_header("Histogram: body_mass_g", textOutput("range_body_mass_g")),
+      card_header(
+        "Histogram: body_mass_g",
+        textOutput("range_body_mass_g")
+      ),
       plotOutput("hist_body_mass_g", height = "300px")
     )
   )
@@ -153,7 +156,12 @@ server <- function(input, output, session) {
   })
   output$hist_body_mass_g <- renderPlot({
     if (nrow(filtered_data()) == 0) {
-      return("")
+      validate(
+        need(
+          nrow(filtered_data()) > 0,
+          "No data available for selected species"
+        )
+      )
     }
     ggplot(filtered_data(), aes(body_mass_g)) +
       geom_histogram(
