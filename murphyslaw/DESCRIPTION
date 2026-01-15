@@ -1,0 +1,21 @@
+Package: murphyslaw
+Title: Palmer Penguins Data Explorer Shiny App
+Version: 0.1.0
+Authors@R:
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: A Shiny application for exploring Palmer Penguins data with
+    modular histogram components. Includes histogram module functions and
+    an app launcher.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    shiny,
+    bslib,
+    ggplot2,
+    dplyr,
+    palmerpenguins,
+    rlang
+Suggests: 
+    shinytest2
