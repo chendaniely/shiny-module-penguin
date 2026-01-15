@@ -67,14 +67,14 @@ Data: Palmer Penguins dataset from the [`{palmerpenguins}` R package](https://al
 #### 46 - 50: Github Actions
 
 - Now we want to automate all this testing
+  - Check standard:
+    - `usethis::use_github_action(example = "https://github.com/r-lib/actions/blob/v2-branch/examples/check-standard.yaml")`
+  - Or Automate app deployment
 - Github Actions to the rescue!
+  - `usethis::use_github_action("https://github.com/r-lib/actions/blob/6f6e5bc62fba3a704f74e7ad7ef7676c5c6a2590/examples/shiny-deploy.yaml")`
 - Details about line-by-line workflow file is out of scope
 - Specifically talk about the action steps in the workflow that correspond to running the test from the terminal/console
 
-#### 51 - 55: Github Actions
-
-- Watch the spinning wheel go ✔️
-
-#### 56 - 60: Buffer / Q+A
+#### : Buffer / Q+A
 
 🎉
