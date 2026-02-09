@@ -1,0 +1,186 @@
+{
+  "input": {
+    "species": [
+      "Adelie",
+      "Chinstrap",
+      "Gentoo"
+    ]
+  },
+  "output": {
+    "bill_depth-hist": {
+      "src": "[image data hash: 0e41b2b351ab0ee626f32c3600e79e63]",
+      "width": 519,
+      "height": 543.5,
+      "alt": "Plot object",
+      "coordmap": {
+        "panels": [
+          {
+            "panel": 1,
+            "row": 1,
+            "col": 1,
+            "panel_vars": {
+
+            },
+            "log": {
+              "x": null,
+              "y": null
+            },
+            "domain": {
+              "left": 12.43684210526316,
+              "right": 22.16315789473684,
+              "bottom": -1.85,
+              "top": 38.85
+            },
+            "mapping": {
+              "y": null,
+              "x": ".data[[\"bill_depth_mm\"]]"
+            },
+            "range": {
+              "left": 32.93193493150687,
+              "right": 513.5205479452054,
+              "bottom": 511.8464731501984,
+              "top": 5.479452054794521
+            }
+          }
+        ],
+        "dims": {
+          "width": 519,
+          "height": 543.5
+        }
+      }
+    },
+    "bill_depth-range": "[13.1, 21.5]",
+    "bill_length-hist": {
+      "src": "[image data hash: 46cb3283fcf8747c822bd6bd3dd28778]",
+      "width": 519,
+      "height": 543.5,
+      "alt": "Plot object",
+      "coordmap": {
+        "panels": [
+          {
+            "panel": 1,
+            "row": 1,
+            "col": 1,
+            "panel_vars": {
+
+            },
+            "log": {
+              "x": null,
+              "y": null
+            },
+            "domain": {
+              "left": 29.92894736842106,
+              "right": 61.77105263157895,
+              "bottom": -1.7,
+              "top": 35.7
+            },
+            "mapping": {
+              "y": null,
+              "x": ".data[[\"bill_length_mm\"]]"
+            },
+            "range": {
+              "left": 32.93193493150687,
+              "right": 513.5205479452054,
+              "bottom": 511.8464731501984,
+              "top": 5.479452054794521
+            }
+          }
+        ],
+        "dims": {
+          "width": 519,
+          "height": 543.5
+        }
+      }
+    },
+    "bill_length-range": "[32.1, 59.6]",
+    "body_mass-hist": {
+      "src": "[image data hash: 6b2bc5de84c4403a2cf588cb78ae787d]",
+      "width": 519,
+      "height": 543.5,
+      "alt": "Plot object",
+      "coordmap": {
+        "panels": [
+          {
+            "panel": 1,
+            "row": 1,
+            "col": 1,
+            "panel_vars": {
+
+            },
+            "log": {
+              "x": null,
+              "y": null
+            },
+            "domain": {
+              "left": 2415.78947368421,
+              "right": 6584.21052631579,
+              "bottom": -1.95,
+              "top": 40.95
+            },
+            "mapping": {
+              "y": null,
+              "x": ".data[[\"body_mass_g\"]]"
+            },
+            "range": {
+              "left": 32.93193493150687,
+              "right": 513.5205479452054,
+              "bottom": 511.8464731501984,
+              "top": 5.479452054794521
+            }
+          }
+        ],
+        "dims": {
+          "width": 519,
+          "height": 543.5
+        }
+      }
+    },
+    "body_mass-range": "[2700, 6300]",
+    "flipper_length-hist": {
+      "src": "[image data hash: b4fd624d303675324050539820912e09]",
+      "width": 519,
+      "height": 543.5,
+      "alt": "Plot object",
+      "coordmap": {
+        "panels": [
+          {
+            "panel": 1,
+            "row": 1,
+            "col": 1,
+            "panel_vars": {
+
+            },
+            "log": {
+              "x": null,
+              "y": null
+            },
+            "domain": {
+              "left": 167.3421052631579,
+              "right": 235.6578947368421,
+              "bottom": -2.1,
+              "top": 44.1
+            },
+            "mapping": {
+              "y": null,
+              "x": ".data[[\"flipper_length_mm\"]]"
+            },
+            "range": {
+              "left": 32.93193493150687,
+              "right": 513.5205479452054,
+              "bottom": 511.8464731501984,
+              "top": 5.479452054794521
+            }
+          }
+        ],
+        "dims": {
+          "width": 519,
+          "height": 543.5
+        }
+      }
+    },
+    "flipper_length-range": "[172, 231]"
+  },
+  "export": {
+
+  }
+}

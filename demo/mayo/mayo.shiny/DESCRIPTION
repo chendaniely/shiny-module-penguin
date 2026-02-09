@@ -1,0 +1,19 @@
+Package: mayo.shiny
+Title: Palmer Penguins Data Explorer
+Version: 0.1.0
+Authors@R:
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: A Shiny application for exploring Palmer Penguins data with
+    interactive histograms using modular design.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    shiny,
+    bslib,
+    palmerpenguins,
+    dplyr,
+    ggplot2
+Suggests: 
+    shinytest2
